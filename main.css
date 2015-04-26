@@ -18,6 +18,9 @@ a {
 img {
   max-width: 100%;
 }
+h3 {
+  margin: 0 0 1em 0;
+}
 
 
 
@@ -50,6 +53,11 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
 }
 
 /***********
@@ -87,6 +95,37 @@ Page portfolio
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
+}
+
+/***********
+Page about
+**************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/***********
+Page contact
+**************/
+
+.contact-info {
+list-style: none;
+padding: 0;
+margin: 0;
+font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
 }
 
 /***********
